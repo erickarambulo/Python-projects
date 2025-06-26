@@ -83,9 +83,6 @@ else:
 # Project #5
 
 # Prompt user to enter their number from 0 to 36
-from zmq import RATE
-
-
 pocket = int(input("Enter your number from 0 to 36: "))
 
 # if, elif, and else branches
