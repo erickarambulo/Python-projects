@@ -1,5 +1,5 @@
 # Project #1: Traffic Lights
-'''
+
 # Dictionary
 traffic_lights = {
     "red": "Drivers please stop. The light is red.",
@@ -32,7 +32,7 @@ elif light == "green":
 elif light == "yellow":
     print(pedestrian_signals.get("wait"))
     print(direction.get("nothing"))
-'''
+
 
 # Project #2: Clothing Choices Based on Weather
 
