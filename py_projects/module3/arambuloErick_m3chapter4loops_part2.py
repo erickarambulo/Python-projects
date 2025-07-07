@@ -1,5 +1,5 @@
 # Project #1: Multiply by 10 for Products
-'''
+
 # Ask users for their input
 number = float(input("Enter a number: "))
 product = number * 10
@@ -11,10 +11,9 @@ while product < 100:
     product = number * 10
 
 print(f"Final product is {product}.")
-'''
 
 # Project #2: Bug Collector
-'''
+
 # Variable declared and initialized
 total_bugs = 0
 
@@ -25,10 +24,9 @@ for day in range(1, 6): # Loop for five days
 
 # Final output 
 print(f"Total bugs collected over five days: {total_bugs}")
-'''
 
 # Project #3: Calories Burned
-'''
+
 # Variables declared and initialized
 calories_per_minute = 4.2
 minutes_list = [10, 15, 20, 25, 30]
@@ -39,7 +37,6 @@ print("Calories burned on a treadmill:")
 for minutes in minutes_list:
     calories_burned = calories_per_minute * minutes
     print(f"After {minutes} minutes: {calories_burned:.1f} calories")
-'''
 
 # Project #4: Lap Times
 # Note to myself: I have to add append, list, min, max, sum, and len for this one
@@ -62,5 +59,3 @@ average_lap = sum(lap_times) / len(lap_times)
 print(f"\nFastest lap time: {fastest_lap:.2f} seconds")
 print(f"Slowest lap time: {slowest_lap:.2f} seconds")
 print(f"Average lap time: {average_lap:.2f} seconds")
-
-
