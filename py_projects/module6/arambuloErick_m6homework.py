@@ -1,5 +1,5 @@
 # Project #1:
-'''
+
 # MAIN DICTIONARY to save information for student ID
 main_student_system = {}
 
@@ -40,7 +40,7 @@ add_student("10004", "Joshua", 25)
 
 # Test for duplicate error
 add_student("10001", "Erick", 28)
-'''
+
 
 # Project #2: (similar to project #1)
 
@@ -79,4 +79,5 @@ def add_product(name, quantity, price):
 add_product("Mr. Clean", 20, 10.00)
 add_product("Cat Chewy 11 oz", 55, 11.99)
 # Test for duplicate error
+
 add_product("Cat Chewy 11 oz", 55, 11.99)
